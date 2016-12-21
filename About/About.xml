@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[A16] Kitchen Counter and other shelves</name>
+  <author>Tammabanana</author>
+  <targetVersion>0.16.1386</targetVersion>
+  <description>The Kitchen Counter is the equipment rack, re-purposed to hold food instead of weapons. Art provided by Thundercraft!
+  
+  Update, 12/21/2016: In the past I've pointed people to other storage mods for items beyond foods, but I'm not sure how many of the other storage-solution mods are A16'd yet. So I've pulled some graphics from CuproPanda's "CorePanda" mod, and made 1x1 racks for:
+	(a) "Food cache": foods (like the Kitchen Counter, but 1x1);
+	(b) "Medicine cabinet": medicine and drugs (defaults to just medicine);
+	(c) "General shelving": Anything. (I made this one require 2x resources and work, because some of that stuff is HEAVY, so shelving for it should be sturdier. Also out of a vague sense of balance, since it's so broad.</description>
+</ModMetaData>

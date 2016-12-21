@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Buildings>
+
+ 
+  <ThingDef ParentName="FurnitureBase">
+    <defName>FoodCache</defName>
+    <label>food cache</label>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>FoodRack/FoodRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.75,1.75)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+	  <Mass>4</Mass>
+      <WorkToMake>500</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>Foods stored in this will not deteriorate, even if outside, but will still spoil.</description>
+    <size>(1,1)</size>
+    <building>
+      <preventDeterioration>true</preventDeterioration>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+  </ThingDef>
+
+  <ThingDef ParentName="FurnitureBase">
+    <defName>MedicineCabinet</defName>
+    <label>medicine cabinet</label>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>DrugRack/DrugRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.75,1.75)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+	  <Mass>4</Mass>
+      <WorkToMake>500</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>Drugs and medicines stored in this will not deteriorate, even if outside.</description>
+    <size>(1,1)</size>
+    <building>
+      <preventDeterioration>true</preventDeterioration>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+			<li>Drugs</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+  </ThingDef>
+
+  <ThingDef ParentName="FurnitureBase">
+    <defName>GeneralShelving</defName>
+    <label>general shelving</label>
+    <thingClass>Building_Storage</thingClass>
+    <graphicData>
+      <texPath>UniversalRack/UniversalRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.75,1.75)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+	  <Mass>8</Mass>
+      <WorkToMake>1000</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>Things stored in this will not deteriorate, even if outside, but will still spoil. Requires more resources and work in order to make it sturdy enough to hold the heavy things.</description>
+    <size>(1,1)</size>
+    <building>
+      <preventDeterioration>true</preventDeterioration>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Root</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Root</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+  </ThingDef>
+  
+</Buildings>
