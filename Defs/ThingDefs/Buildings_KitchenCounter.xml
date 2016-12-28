@@ -50,7 +50,7 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
 	  <Mass>8</Mass>
-      <WorkToMake>1050</WorkToMake>
+      <WorkToBuild>1050</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <description>Foods stored in this will not deteriorate, even if outside, but will still spoil.</description>
