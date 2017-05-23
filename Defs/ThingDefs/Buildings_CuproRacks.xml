@@ -32,6 +32,7 @@
     <size>(1,1)</size>
     <building>
       <preventDeterioration>true</preventDeterioration>
+	  <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <fixedStorageSettings>
         <filter>
           <categories>
@@ -53,6 +54,7 @@
     </inspectorTabs>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <surfaceType>Item</surfaceType>
+	<canOverlapZones>false</canOverlapZones>
   </ThingDef>
 
   <ThingDef ParentName="FurnitureBase">
@@ -84,6 +86,7 @@
     <size>(1,1)</size>
     <building>
       <preventDeterioration>true</preventDeterioration>
+	  <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <fixedStorageSettings>
         <filter>
           <categories>
@@ -106,11 +109,12 @@
     </inspectorTabs>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <surfaceType>Item</surfaceType>
+	<canOverlapZones>false</canOverlapZones>
   </ThingDef>
 
   <ThingDef ParentName="FurnitureBase">
     <defName>GeneralShelving</defName>
-    <label>general shelving</label>
+    <label>small shelf</label>
     <thingClass>Building_Storage</thingClass>
     <graphicData>
       <texPath>UniversalRack/UniversalRack</texPath>
@@ -126,17 +130,18 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <costStuffCount>30</costStuffCount>
+    <costStuffCount>15</costStuffCount>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
 	  <Mass>8</Mass>
       <WorkToBuild>1000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
-    <description>Things stored in this will not deteriorate, even if outside, but will still spoil. Requires more resources and work in order to make it sturdy enough to hold the heavy things.</description>
+    <description>Things stored in this will not deteriorate, even if outside, but will still spoil.</description>
     <size>(1,1)</size>
     <building>
       <preventDeterioration>true</preventDeterioration>
+	  <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <fixedStorageSettings>
         <filter>
           <categories>
@@ -160,6 +165,7 @@
     </inspectorTabs>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <surfaceType>Item</surfaceType>
+	<canOverlapZones>false</canOverlapZones>
   </ThingDef>
   
 </Buildings>

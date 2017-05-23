@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>[A16] Kitchen Counter and other shelves</name>
+  <name>[A17] Kitchen Counter and other shelves</name>
   <author>Tammabanana</author>
-  <targetVersion>0.16.1386</targetVersion>
-  <description>The Kitchen Counter is the equipment rack, re-purposed to hold food instead of weapons. Art provided by Thundercraft!
+  <targetVersion>0.17.1534</targetVersion>
+  <description>Vanilla Rimworld changes the Equipment Rack (only holds weapons, apparel) to an all-purpose Shelf. You no longer neeeeed this mod to shelve all your things, but it was pointed out to me that it's still useful to have the different types of shelves which default to the intended categories as soon as they're placed, so A17 it is.
   
-  Update, 12/21/2016: In the past I've pointed people to other storage mods for items beyond foods, but I'm not sure how many of the other storage-solution mods are A16'd yet. So I've pulled some graphics from CuproPanda's "CorePanda" mod, and made 1x1 racks for:
-	(a) "Food cache": foods (like the Kitchen Counter, but 1x1);
-	(b) "Medicine cabinet": medicine and drugs (defaults to just medicine);
-	(c) "General shelving": Anything. (I made this one require 2x resources and work, because some of that stuff is HEAVY, so shelving for it should be sturdier. Also out of a vague sense of balance, since it's so broad.</description>
+  * "Kitchen counter": 2x1, holds foods. Art provided by Thundercraft!
+  * "Food cache": 1x1, holds foods. Art from CuproPanda's "CorePanda" mod.
+  * "Medicine cabinet": 1x1, holds medicine and drugs (but defaults to just medicine). Art from CuproPanda's "CorePanda" mod.
+  * "Small shelf": 1x1, holds anything. Art from CuproPanda's "CorePanda" mod.
+  
+  A17 notes:
+	* The A17 vanilla Shelf now has an "ignoreStoredThingsBeauty" tag, which I presume ignores the beauty (or lack thereof) of the stored things! I applied this tag to all the shelves in this mod, too.
+	* Vanilla also now has a "canOverlapZones" (false) tag. Not entirely sure why, but I assume it's important, so I applied that too.
+	* The A16 "general shelving" used to cost 2x the resources of the other 1x1's, for balance reasons. That's out of balance with an A17 2x1 that holds everything, so now it costs the same as the other 1x1s. I also renamed it "small shelf" for consistency with vanilla.
+	</description>
 </ModMetaData>
